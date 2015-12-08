@@ -55,7 +55,7 @@ public class HomeScreenLayout extends ViewGroup {
         final int itemsPerRow = countItemsPerRow(width);
         final int childCount = getChildCount();
         int currentLeft = (width - itemsPerRow * VIEW_SIZE_WITH_MARGINS) / 2;
-        int currentTop = t + MARGIN_TOP;
+        int currentTop = MARGIN_TOP;
         int rowItem = 0;
         for (int i = 0; i < childCount; i++) {
             final View child = getChildAt(i);
