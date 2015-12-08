@@ -72,9 +72,9 @@ public class HomeScreenLayout extends ViewGroup {
                 } else {
                     currentLeft = (width - itemsPerRow * VIEW_SIZE_WITH_MARGINS) / 2;
                 }
-                currentTop += VIEW_SIZE + VIEW_MARGIN * 2;
+                currentTop += VIEW_SIZE_WITH_MARGINS;
             } else {
-                currentLeft += VIEW_SIZE + VIEW_MARGIN * 2;
+                currentLeft += VIEW_SIZE_WITH_MARGINS;
             }
         }
     }
